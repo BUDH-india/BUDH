@@ -1,0 +1,26 @@
+[
+    {
+        "id": "BK001",
+        "title": "NCERT Physics Class 11",
+        "category": "Books",
+        "description": "Official NCERT textbook for Class 11 Physics."
+    },
+    {
+        "id": "BK002",
+        "title": "NCERT Chemistry Class 11",
+        "category": "Books",
+        "description": "Official NCERT Chemistry textbook."
+    },
+    {
+        "id": "SCH001",
+        "title": "National Scholarship Portal",
+        "category": "Scholarships",
+        "description": "Government scholarship portal."
+    },
+    {
+        "id": "PYQ001",
+        "title": "JEE Previous Year Papers",
+        "category": "PYQs",
+        "description": "Previous year JEE question papers."
+    }
+]
