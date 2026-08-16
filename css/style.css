@@ -614,3 +614,23 @@ footer{
     background:#1D4ED8;
 
 }
+
+.budh-about {
+    width: min(900px, 90%);
+    margin: 45px auto 30px;
+    text-align: center;
+}
+
+.budh-about p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.48);
+    font-weight: 400;
+    letter-spacing: 0.15px;
+}
+
+.budh-about strong {
+    color: rgba(255, 255, 255, 0.72);
+    font-weight: 600;
+}
