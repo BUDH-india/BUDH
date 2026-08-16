@@ -1,0 +1,550 @@
+{
+  "total_records": 1104,
+  "records_with_language": 1104,
+  "unique_languages": [
+    "Assamese",
+    "Bengali",
+    "Bodo",
+    "Dogri",
+    "English",
+    "Gujarati",
+    "Hindi",
+    "Kannada",
+    "Kashmiri",
+    "Konkani",
+    "Maithili",
+    "Malayalam",
+    "Manipuri",
+    "Marathi",
+    "Nepali",
+    "Odia",
+    "Punjabi",
+    "Sanskrit",
+    "Santhali",
+    "Sindhi",
+    "Tamil",
+    "Telugu",
+    "Urdu"
+  ],
+  "unique_subjects": [
+    "Accountancy",
+    "Arts",
+    "Biology",
+    "Biotechnology",
+    "Business Studies",
+    "Chemistry",
+    "Class 8",
+    "Computer Science",
+    "Computers And Communication Technology",
+    "Creative Writing & Translation",
+    "Creative Writing And Translation",
+    "Economics",
+    "English",
+    "Environmental Education",
+    "Environmental Studies",
+    "Fine Art",
+    "Geography",
+    "Graphics Design",
+    "Health And Physical Education",
+    "Heritage Crafts",
+    "Hindi",
+    "History",
+    "Home Science",
+    "ICT",
+    "Informatics Practices",
+    "Kannada",
+    "Knowledge Traditions Practices Of India",
+    "Malayalam",
+    "Marathi",
+    "Mathematics",
+    "Nepali",
+    "New Age Graphics Design",
+    "Physical Education And Well Being",
+    "Physics",
+    "Political Science",
+    "Psychology",
+    "Punjabi",
+    "Sangeet",
+    "Sanskrit",
+    "Santhali",
+    "Science",
+    "Skill Education",
+    "Social Science",
+    "Sociology",
+    "Tamil",
+    "The World Around Us",
+    "Urdu",
+    "Vocational",
+    "Vocational Education"
+  ],
+  "records_changed_count": 31,
+  "records_changed_examples": [
+    {
+      "id": "ncert-bmtjm1",
+      "diffs": {
+        "language": {
+          "before": "Maithili",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-cgjev1",
+      "diffs": {
+        "language": {
+          "before": "Gujarati",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-deap1",
+      "diffs": {
+        "language": {
+          "before": "EVS",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-dmtky1",
+      "diffs": {
+        "language": {
+          "before": "Maithili",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-emtky1",
+      "diffs": {
+        "language": {
+          "before": "Maithili",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-emtev1",
+      "diffs": {
+        "language": {
+          "before": "Maithili",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-fgjes1",
+      "diffs": {
+        "language": {
+          "before": "Gujarati",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-gmtkr1",
+      "diffs": {
+        "language": {
+          "before": "Maithili",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-gmtcu1",
+      "diffs": {
+        "language": {
+          "before": "Maithili",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-gmtes1",
+      "diffs": {
+        "language": {
+          "before": "Maithili",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-gmtkb1",
+      "diffs": {
+        "language": {
+          "before": "Maithili",
+          "after": "English"
+        }
+      }
+    },
+    {
+      "id": "ncert-hess4",
+      "diffs": {
+        "language": {
+          "before": "Geography",
+          "after": "English"
+        },
+        "subject": {
+          "before": "Social Science",
+          "after": "Geography"
+        }
+      }
+    },
+    {
+      "id": "ncert-hhss4",
+      "diffs": {
+        "language": {
+          "before": "Bhugol",
+          "after": "English"
+        },
+        "subject": {
+          "before": "Social Science",
+          "after": "Geography"
+        }
+      }
+    },
+    {
+      "id": "ncert-hess3",
+      "diffs": {
+        "subject": {
+          "before": "Social Science",
+          "after": "Geography"
+        }
+      }
+    },
+    {
+      "id": "ncert-hhss3",
+      "diffs": {
+        "subject": {
+          "before": "Social Science",
+          "after": "Geography"
+        }
+      }
+    },
+    {
+      "id": "ncert-hess2",
+      "diffs": {
+        "subject": {
+          "before": "Social Science",
+          "after": "Geography"
+        }
+      }
+    },
+    {
+      "id": "ncert-hhss1",
+      "diffs": {
+        "language": {
+          "before": "Itihas",
+          "after": "English"
+        },
+        "subject": {
+          "before": "Social Science",
+          "after": "History"
+        }
+      }
+    },
+    {
+      "id": "ncert-hugy1",
+      "diffs": {
+        "subject": {
+          "before": "Social Science",
+          "after": "History"
+        }
+      }
+    },
+    {
+      "id": "ncert-huss1",
+      "diffs": {
+        "subject": {
+          "before": "Social Science",
+          "after": "History"
+        }
+      }
+    },
+    {
+      "id": "ncert-huhm1",
+      "diffs": {
+        "subject": {
+          "before": "Social Science",
+          "after": "History"
+        }
+      }
+    }
+  ],
+  "flagged_records": [
+    {
+      "id": "ncert-deap1",
+      "before": "EVS",
+      "after": "English",
+      "url": "https://ncert.nic.in/textbook.php?deap1=0-27"
+    },
+    {
+      "id": "ncert-hhss4",
+      "before": "Bhugol",
+      "after": "English",
+      "url": "https://ncert.nic.in/textbook.php?hhss4=0-5"
+    },
+    {
+      "id": "ncert-hess4",
+      "before": "Geography",
+      "after": "English",
+      "url": "https://ncert.nic.in/textbook.php?hess4=0-5"
+    },
+    {
+      "id": "ncert-hhss1",
+      "before": "Itihas",
+      "after": "English",
+      "url": "https://ncert.nic.in/textbook.php?hhss1=0-8"
+    },
+    {
+      "id": "ncert-huug1",
+      "before": "Supl",
+      "after": "English",
+      "url": "https://ncert.nic.in/textbook.php?huug1=0-9"
+    },
+    {
+      "id": "ncert-ieve1",
+      "before": "Addawala",
+      "after": "English",
+      "url": "https://ncert.nic.in/textbook.php?ieve1=0-5"
+    },
+    {
+      "id": "ncert-ievw1",
+      "before": "Agriculture",
+      "after": "English",
+      "url": "https://ncert.nic.in/textbook.php?ievw1=0-4"
+    },
+    {
+      "id": "ncert-lhgy2",
+      "before": "Bhugol",
+      "after": "English",
+      "url": "https://ncert.nic.in/textbook.php?lhgy2=0-9"
+    }
+  ],
+  "duplicate_ids": [],
+  "duplicate_urls": [],
+  "missing_titles": [],
+  "missing_urls": [],
+  "suspicious_domains": [],
+  "malformed_class_count": 0,
+  "malformed_subject_count": 0,
+  "malformed_language_count": 0,
+  "representative_samples": [
+    {
+      "id": "ncert-aejm1",
+      "title": "Joyful-Mathematics",
+      "class": 1,
+      "subject": "Mathematics",
+      "language": "English",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/aejm1cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?aejm1=0-13",
+      "tags": [
+        "joyful",
+        "mathematics",
+        "class 1",
+        "grade 1",
+        "english",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-ahjm1",
+      "title": "Joyful-Mathematics",
+      "class": 1,
+      "subject": "Mathematics",
+      "language": "Hindi",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/ahjm1cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?ahjm1=0-13",
+      "tags": [
+        "joyful",
+        "mathematics",
+        "class 1",
+        "grade 1",
+        "hindi",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-auri1",
+      "title": "Riyazi Ka Jadoo-I",
+      "class": 1,
+      "subject": "Mathematics",
+      "language": "Urdu",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/auri1cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?auri1=0-13",
+      "tags": [
+        "riyazi",
+        "jadoo",
+        "class 1",
+        "grade 1",
+        "mathematics",
+        "urdu",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-deap1",
+      "title": "Looking Around",
+      "class": 4,
+      "subject": "Environmental Studies",
+      "language": "English",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/deap1cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?deap1=0-27",
+      "tags": [
+        "looking",
+        "around",
+        "class 4",
+        "grade 4",
+        "environmental studies",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-hhss4",
+      "title": "Sansadhan Avam Vikas",
+      "class": 8,
+      "subject": "Geography",
+      "language": "English",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/hhss4cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?hhss4=0-5",
+      "tags": [
+        "sansadhan",
+        "avam",
+        "vikas",
+        "class 8",
+        "grade 8",
+        "geography",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-hhss1",
+      "title": "Hamare Atit-III",
+      "class": 8,
+      "subject": "History",
+      "language": "English",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/hhss1cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?hhss1=0-8",
+      "tags": [
+        "hamare",
+        "atit",
+        "iii",
+        "class 8",
+        "grade 8",
+        "history",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-huug1",
+      "title": "Urdu Guldasta",
+      "class": 8,
+      "subject": "Urdu",
+      "language": "English",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/huug1cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?huug1=0-9",
+      "tags": [
+        "urdu",
+        "guldasta",
+        "class 8",
+        "grade 8",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-ieve1",
+      "title": "Hand Embroiderer",
+      "class": 9,
+      "subject": "Vocational",
+      "language": "English",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/ieve1cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?ieve1=0-5",
+      "tags": [
+        "hand",
+        "embroiderer",
+        "class 9",
+        "grade 9",
+        "vocational",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-ievw1",
+      "title": "Animal Health Workers",
+      "class": 9,
+      "subject": "Vocational",
+      "language": "English",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/ievw1cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?ievw1=0-4",
+      "tags": [
+        "animal",
+        "health",
+        "workers",
+        "class 9",
+        "grade 9",
+        "vocational",
+        "ncert",
+        "textbook"
+      ]
+    },
+    {
+      "id": "ncert-lhgy2",
+      "title": "Bharat log aur arthvyasastha",
+      "class": 12,
+      "subject": "Geography",
+      "language": "English",
+      "board": "NCERT",
+      "provider": "NCERT",
+      "publisher": "NCERT",
+      "thumbnail": "https://ncert.nic.in/textbook/pdf/lhgy2cc.jpg",
+      "url": "https://ncert.nic.in/textbook.php?lhgy2=0-9",
+      "tags": [
+        "bharat",
+        "log",
+        "aur",
+        "arthvyasastha",
+        "class 12",
+        "grade 12",
+        "geography",
+        "ncert",
+        "textbook"
+      ]
+    }
+  ]
+}

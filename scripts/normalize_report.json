@@ -1,0 +1,220 @@
+{
+  "total_records": 1104,
+  "unique_languages_after_guessing": [
+    "Assamese",
+    "Bengali",
+    "Bodo",
+    "Dogri",
+    "English",
+    "Gujarati",
+    "Hindi",
+    "Kannada",
+    "Kashmiri",
+    "Konkani",
+    "Maithili",
+    "Malayalam",
+    "Manipuri",
+    "Marathi",
+    "Nepali",
+    "Odia",
+    "Punjabi",
+    "Sanskrit",
+    "Santhali",
+    "Sindhi",
+    "Tamil",
+    "Telugu",
+    "Urdu"
+  ],
+  "unique_subjects_after": [
+    "Accountancy",
+    "Arts",
+    "Biology",
+    "Biotechnology",
+    "Business Studies",
+    "Chemistry",
+    "Class 8",
+    "Computer Science",
+    "Computers And Communication Technology",
+    "Creative Writing & Translation",
+    "Creative Writing And Translation",
+    "Economics",
+    "English",
+    "Environmental Education",
+    "Environmental Studies",
+    "Fine Art",
+    "Geography",
+    "Graphics Design",
+    "Health And Physical Education",
+    "Heritage Crafts",
+    "Hindi",
+    "History",
+    "Home Science",
+    "ICT",
+    "Informatics Practices",
+    "Kannada",
+    "Knowledge Traditions Practices Of India",
+    "Malayalam",
+    "Marathi",
+    "Mathematics",
+    "Nepali",
+    "New Age Graphics Design",
+    "Physical Education And Well Being",
+    "Physics",
+    "Political Science",
+    "Psychology",
+    "Punjabi",
+    "Sangeet",
+    "Sanskrit",
+    "Santhali",
+    "Science",
+    "Skill Education",
+    "Social Science",
+    "Sociology",
+    "Tamil",
+    "The World Around Us",
+    "Urdu",
+    "Vocational",
+    "Vocational Education"
+  ],
+  "records_per_class": {
+    "1": 27,
+    "2": 27,
+    "3": 104,
+    "4": 89,
+    "5": 89,
+    "6": 154,
+    "7": 121,
+    "8": 156,
+    "9": 56,
+    "10": 38,
+    "11": 123,
+    "12": 112,
+    "13": 7,
+    "14": 1
+  },
+  "records_changed_count": 138,
+  "records_changed_examples": [
+    {
+      "id": "ncert-casky1",
+      "orig_language": "Assamese",
+      "new_language": "Assamese",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-cbnky1",
+      "orig_language": "Bengali",
+      "new_language": "Bengali",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-cbdky1",
+      "orig_language": "Bodo",
+      "new_language": "Bodo",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-cdgky1",
+      "orig_language": "Dogri",
+      "new_language": "Dogri",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-ceky1",
+      "orig_language": "English",
+      "new_language": "English",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-cgjky1",
+      "orig_language": "Gujarati",
+      "new_language": "Gujarati",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-chky1",
+      "orig_language": "Hindi",
+      "new_language": "Hindi",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-cknky1",
+      "orig_language": "Kannada",
+      "new_language": "Kannada",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-cksky1",
+      "orig_language": "Kashmiri",
+      "new_language": "Kashmiri",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    },
+    {
+      "id": "ncert-ckoky1",
+      "orig_language": "Konkani",
+      "new_language": "Konkani",
+      "orig_subject": "Physical Education and Well Being",
+      "new_subject": "Physical Education And Well Being"
+    }
+  ],
+  "records_requiring_manual_review_count": 0,
+  "records_requiring_manual_review_examples": [],
+  "out_of_range_class_records": [
+    {
+      "id": "ncert-mehc1",
+      "class": 13,
+      "title": "Exploring Craft Tradition of India",
+      "subject": "Heritage Crafts"
+    },
+    {
+      "id": "ncert-khhc1",
+      "class": 13,
+      "title": "Bhartiya Hastkala Parmparaon ki Khoj",
+      "subject": "Heritage Crafts"
+    },
+    {
+      "id": "ncert-kham1",
+      "class": 13,
+      "title": "Abhivyakti Aur Madhyam",
+      "subject": "Hindi"
+    },
+    {
+      "id": "ncert-klss1",
+      "class": 13,
+      "title": "Sanskrit Sahitya parichay",
+      "subject": "Sanskrit"
+    },
+    {
+      "id": "ncert-kuza1",
+      "class": 13,
+      "title": "Zuban-O-Adab ki Tareekh",
+      "subject": "Urdu"
+    },
+    {
+      "id": "ncert-juuq1",
+      "class": 13,
+      "title": "Urdu Qwaid aur Insha",
+      "subject": "Urdu"
+    },
+    {
+      "id": "ncert-kuiz1",
+      "class": 13,
+      "title": "Izhar Aur Zara-e-Izhar",
+      "subject": "Urdu"
+    },
+    {
+      "id": "ncert-geof1",
+      "class": 14,
+      "title": "Organic Farming",
+      "subject": "Vocational"
+    }
+  ]
+}

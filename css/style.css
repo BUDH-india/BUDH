@@ -16,36 +16,65 @@ html{
 body{
 
     font-family:
-    Inter,
-    "Segoe UI",
-    Arial,
-    sans-serif;
+        Inter,
+        "Segoe UI",
+        Arial,
+        sans-serif;
 
     background:#F8FAFC;
-
     color:#1E293B;
 
     min-height:100vh;
 
 }
 
-/* =========================
-   NAVBAR
-========================= */
+/* ==========================================
+   HEADER
+========================================== */
 
-.top-nav{
+header{
 
     width:100%;
 
     display:flex;
 
-    justify-content:flex-end;
+    justify-content:space-between;
 
-    padding:28px 60px;
+    align-items:center;
+
+    padding:24px 7%;
 
 }
 
-.top-nav nav{
+.logo-small{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.logo-small img{
+
+    width:42px;
+
+    height:auto;
+
+}
+
+.logo-small span{
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+    color:#163B69;
+
+}
+
+nav{
 
     display:flex;
 
@@ -53,27 +82,57 @@ body{
 
 }
 
-.top-nav a{
+nav a{
 
     text-decoration:none;
 
     color:#475569;
 
+    font-size:16px;
+
     font-weight:600;
+
+    position:relative;
 
     transition:.25s;
 
 }
 
-.top-nav a:hover{
+nav a:hover{
 
     color:#2563EB;
 
 }
 
-/* =========================
+nav a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-6px;
+
+    width:0;
+
+    height:2px;
+
+    background:#2563EB;
+
+    transition:.25s;
+
+}
+
+nav a:hover::after{
+
+    width:100%;
+
+}
+
+/* ==========================================
    HERO
-========================= */
+========================================== */
 
 .hero{
 
@@ -81,35 +140,36 @@ body{
 
     flex-direction:column;
 
-    justify-content:center;
-
     align-items:center;
+
+    justify-content:flex-start;
 
     text-align:center;
 
-    padding:30px 20px;
+    min-height:78vh;
+
+    padding:20px 20px 40px;
 
 }
-
-/* =========================
+/* ==========================================
    LOGO
-========================= */
+========================================== */
 
 .main-logo{
 
-    width:clamp(130px,18vw,220px);
+    width:clamp(200px,18vw,220px);
 
     height:auto;
 
-    margin-bottom:18px;
+    margin-bottom:20px;
 
     user-select:none;
 
 }
 
-/* =========================
+/* ==========================================
    TITLE
-========================= */
+========================================== */
 
 .hero h1{
 
@@ -123,25 +183,25 @@ body{
 
 }
 
-/* =========================
+/* ==========================================
    TAGLINE
-========================= */
+========================================== */
 
 .tagline{
 
     margin-top:12px;
 
+    margin-bottom:40px;
+
     font-size:1.2rem;
 
     color:#64748B;
 
-    margin-bottom:40px;
-
 }
 
-/* =========================
+/* ==========================================
    SEARCH
-========================= */
+========================================== */
 
 .search-container{
 
@@ -173,11 +233,11 @@ body{
 
     outline:none;
 
+    background:none;
+
     padding:22px 28px;
 
     font-size:1.1rem;
-
-    background:none;
 
 }
 
@@ -185,11 +245,11 @@ body{
 
     border:none;
 
-    padding:0 40px;
-
     background:#2563EB;
 
     color:white;
+
+    padding:0 42px;
 
     font-size:1rem;
 
@@ -207,9 +267,9 @@ body{
 
 }
 
-/* =========================
+/* ==========================================
    RESULTS
-========================= */
+========================================== */
 
 .results{
 
@@ -221,17 +281,15 @@ body{
 
 }
 
-/* =========================
+/* ==========================================
    QUICK LINKS
-========================= */
+========================================== */
 
 .quick-links{
 
-    max-width:1200px;
+    width:min(1200px,90%);
 
-    margin:70px auto;
-
-    padding:0 20px;
+    margin:80px auto;
 
     display:grid;
 
@@ -247,13 +305,13 @@ body{
 
     border-radius:20px;
 
-    padding:28px;
+    padding:30px;
 
-    text-align:center;
+    text-align:left;
 
     box-shadow:0 10px 30px rgba(0,0,0,.06);
 
-    transition:.25s;
+    transition:.3s;
 
     cursor:pointer;
 
@@ -263,13 +321,13 @@ body{
 
     transform:translateY(-8px);
 
-    box-shadow:0 20px 40px rgba(0,0,0,.12);
+    box-shadow:0 18px 35px rgba(37,99,235,.15);
 
 }
 
-.icon{
+.card .icon{
 
-    font-size:2.5rem;
+    font-size:2.3rem;
 
     margin-bottom:18px;
 
@@ -281,6 +339,8 @@ body{
 
     color:#163B69;
 
+    font-size:1.35rem;
+
 }
 
 .card p{
@@ -291,15 +351,15 @@ body{
 
 }
 
-/* =========================
+/* ==========================================
    FOOTER
-========================= */
+========================================== */
 
 footer{
 
-    margin-top:70px;
+    margin-top:80px;
 
-    padding:35px;
+    padding:40px;
 
     text-align:center;
 
@@ -309,25 +369,35 @@ footer{
 
 }
 
-/* =========================
+/* ==========================================
    MOBILE
-========================= */
+========================================== */
 
 @media(max-width:768px){
 
-    .top-nav{
+    header{
 
-        justify-content:center;
+        flex-direction:column;
 
-        padding:20px;
+        gap:20px;
+
+        padding:24px;
 
     }
 
-    .top-nav nav{
+    nav{
 
-        gap:18px;
+        gap:20px;
 
         flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+    .hero{
+
+        padding:30px 18px;
 
     }
 
@@ -358,5 +428,189 @@ footer{
         grid-template-columns:1fr;
 
     }
+
+}
+
+/* =========================
+   SEARCH RESULT CARDS
+========================= */
+
+.results{
+
+    width:100%;
+    max-width:900px;
+    margin:40px auto;
+
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+
+}
+
+
+.result-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
+
+    text-align:left;
+
+    transition:.25s;
+
+}
+
+
+.result-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:
+    0 18px 40px rgba(0,0,0,0.12);
+
+}
+
+
+.result-card h3{
+
+    color:#163B69;
+
+    font-size:1.3rem;
+
+    margin-bottom:10px;
+
+}
+
+
+.result-card span{
+
+    display:inline-block;
+
+    background:#2563EB;
+
+    color:white;
+
+    padding:5px 14px;
+
+    border-radius:20px;
+
+    font-size:.85rem;
+
+    margin-bottom:15px;
+
+}
+
+
+.result-card-header{
+
+    display:flex;
+
+    gap:20px;
+
+    align-items:flex-start;
+
+    margin-bottom:18px;
+
+}
+
+
+.result-card-cover{
+
+    width:96px;
+
+    min-width:96px;
+
+    height:136px;
+
+    object-fit:cover;
+
+    border-radius:16px;
+
+    background:#f3f4f6;
+
+}
+
+
+.result-card-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+.result-card-author-year{
+
+    color:#64748B;
+
+    margin:0;
+
+    font-size:.95rem;
+
+}
+
+
+.result-card-source{
+
+    display:inline-block;
+
+    background:#E0F2FE;
+
+    color:#0369A1;
+
+    padding:6px 12px;
+
+    border-radius:999px;
+
+    font-size:.8rem;
+
+    margin-top:4px;
+
+}
+
+
+.result-card p{
+
+    color:#64748B;
+
+    line-height:1.6;
+
+    margin-bottom:20px;
+
+}
+
+
+.open-resource{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+
+.open-resource:hover{
+
+    background:#1D4ED8;
 
 }
