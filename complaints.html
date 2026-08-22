@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Report a Problem — BUDH India</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #050505;
+            color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px 16px;
+        }
+
+        .page {
+            width: 100%;
+            max-width: 760px;
+        }
+
+        .back {
+            display: inline-block;
+            margin-bottom: 24px;
+            color: #aaa;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .back:hover {
+            color: white;
+        }
+
+        .card {
+            background: #0d0d0d;
+            border: 1px solid #242424;
+            border-radius: 18px;
+            padding: 34px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.45);
+        }
+
+        .logo {
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: #aaa;
+            margin-bottom: 14px;
+        }
+
+        h1 {
+            font-size: clamp(30px, 6vw, 46px);
+            line-height: 1.05;
+            margin-bottom: 14px;
+        }
+
+        .intro {
+            color: #aaa;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #ddd;
+        }
+
+        .field {
+            margin-bottom: 20px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            border: 1px solid #2a2a2a;
+            background: #151515;
+            color: white;
+            border-radius: 10px;
+            padding: 13px 14px;
+            font: inherit;
+            outline: none;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #666;
+        }
+
+        textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .optional {
+            color: #777;
+            font-weight: normal;
+            font-size: 12px;
+        }
+
+        button {
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+            padding: 14px;
+            background: white;
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        .note {
+            margin-top: 24px;
+            padding: 15px;
+            border-radius: 10px;
+            background: #111;
+            border: 1px solid #222;
+            color: #999;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 22px;
+            color: #666;
+            font-size: 12px;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 24px 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="page">
+
+    <a class="back" href="index.html">← Back to BUDH India</a>
+
+    <div class="card">
+
+        <div class="logo">BUDH INDIA</div>
+
+        <h1>Report a Problem</h1>
+
+        <p class="intro">
+            Found incorrect information, a broken resource, a missing link,
+            or something that doesn't work properly on BUDH?
+            Tell us about it and we'll look into it.
+        </p>
+
+        <form
+            name="budh-complaints"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+        >
+
+            <!-- Required by Netlify Forms -->
+            <input type="hidden" name="form-name" value="budh-complaints">
+
+            <!-- Spam protection -->
+            <p style="display:none;">
+                <label>
+                    Don't fill this out:
+                    <input name="bot-field">
+                </label>
+            </p>
+
+            <div class="field">
+                <label for="name">
+                    Name
+                    <span class="optional">(optional)</span>
+                </label>
+
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Your name"
+                >
+            </div>
+
+            <div class="field">
+                <label for="email">
+                    Email
+                    <span class="optional">(optional)</span>
+                </label>
+
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="Your email"
+                >
+            </div>
+
+            <div class="field">
+                <label for="type">Problem type</label>
+
+                <select id="type" name="type" required>
+                    <option value="">Select a problem</option>
+                    <option value="broken-resource">
+                        Broken resource
+                    </option>
+                    <option value="wrong-information">
+                        Wrong information
+                    </option>
+                    <option value="missing-resource">
+                        Missing resource
+                    </option>
+                    <option value="website-bug">
+                        Website bug
+                    </option>
+                    <option value="other">
+                        Other
+                    </option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="message">What went wrong?</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Tell us what happened..."
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit">
+                Submit Report
+            </button>
+
+        </form>
+
+        <div class="note">
+            <strong>Note:</strong>
+            Complaints will be thoroughly checked on Sundays,
+            because I'm a student too. ❤️
+        </div>
+
+    </div>
+
+    <div class="footer">
+        Knowledge belongs to everyone.
+    </div>
+
+</div>
+
+</body>
+</html>
+

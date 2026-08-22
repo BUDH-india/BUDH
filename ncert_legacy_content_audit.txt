@@ -1,0 +1,112 @@
+SUSPICIOUS | ncert-aeen1 | Marigold | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?aeen1=0-10
+SUSPICIOUS | ncert-auri1 | Riyazi | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?auri1=0-13
+SUSPICIOUS | ncert-buri1 | Riyazi ka Jadu | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?buri1=0-15
+SUSPICIOUS | ncert-deen1 | Marigold | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?deen1=0-9
+SUSPICIOUS | ncert-dhhn1 | Rimjhim | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?dhhn1=0-14
+SUSPICIOUS | ncert-dhmh1 | Ganit Ka Jadu | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?dhmh1=0-14
+SUSPICIOUS | ncert-demh1 | Math-Magic | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?demh1=0-14
+SUSPICIOUS | ncert-duri1 | Riyazi Ka Jadu | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?duri1=0-14
+SUSPICIOUS | ncert-fepw1 | A Pact with the Sun | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fepw1=0-7
+SUSPICIOUS | ncert-fehl1 | Honeysuckle | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fehl1=0-8
+SUSPICIOUS | ncert-fhbr1 | Bal Ram Katha | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fhbr1=0-12
+SUSPICIOUS | ncert-fhdv1 | Durva | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fhdv1=0-28
+SUSPICIOUS | ncert-fhvs1 | Vasant | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fhvs1=0-14
+SUSPICIOUS | ncert-feep1 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?feep1=0-9
+SUSPICIOUS | ncert-fhep1 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fhep1=0-9
+SUSPICIOUS | ncert-feep2 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?feep2=0-16
+SUSPICIOUS | ncert-fesc1 | Science | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fesc1=0-11
+SUSPICIOUS | ncert-fuse1 | science-VI | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fuse1=0-16
+SUSPICIOUS | ncert-fhsc1 | Vigyan | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fhsc1=0-11
+SUSPICIOUS | ncert-fuhm1 | Hamare Mazi | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fuhm1=0-11
+SUSPICIOUS | ncert-fess1 | History-Our Past I | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fess1=0-10
+SUSPICIOUS | ncert-fhss1 | Itihas-Hamare Atit I | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fhss1=0-10
+SUSPICIOUS | ncert-fhss2 | Prithvi: Hamara Avas | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fhss2=0-6
+SUSPICIOUS | ncert-fhss3 | Samajik Evam Rajnitik Jeevan | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fhss3=0-8
+SUSPICIOUS | ncert-fuss1 | Samazi Aur Siyasi Zindagi | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fuss1=0-8
+SUSPICIOUS | ncert-fess3 | Social and Political Life-I | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fess3=0-8
+SUSPICIOUS | ncert-fess2 | The Earth: Our Habitat | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fess2=0-6
+SUSPICIOUS | ncert-fuzm1 | Zameen Hamara Maskan | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fuzm1=0-8
+SUSPICIOUS | ncert-fuaz1 | Apni Zuban-VI | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fuaz1=0-20
+SUSPICIOUS | ncert-fujp1 | Jaan Pahechan | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fujp1=0-32
+SUSPICIOUS | ncert-furi1 | Riyazi-VI | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?furi1=0-14
+SUSPICIOUS | ncert-fuug1 | Urdu Guldasta | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?fuug1=0-10
+SUSPICIOUS | ncert-gemp1 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?gemp1=0-13
+DEAD       | ncert-legacy-9651be50e9ff | Project Books | HTTP 404 | https://ncert.nic.in/book_publishing/envedu/8/8.htm
+SUSPICIOUS | ncert-hhss1 | Hamare Atit III | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?hhss1=0-8
+SUSPICIOUS | ncert-heep2 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?heep2=0-13
+SUSPICIOUS | ncert-hhep2 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?hhep2=0-13
+SUSPICIOUS | ncert-hhss2 | Hamare Atit III | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?hhss2=0-6
+SUSPICIOUS | ncert-iemo1 | Moments Supplementary Reader | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iemo1=0-9
+SUSPICIOUS | ncert-iewe1 | Words and Expressions | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iewe1=0-9
+SUSPICIOUS | ncert-ihkr1 | Kritika | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihkr1=0-3
+SUSPICIOUS | ncert-ihks1 | Kshitij | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihks1=0-13
+SUSPICIOUS | ncert-reva1 | Reva | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?reva1=0-10
+SUSPICIOUS | ncert-ihsa1 | Sanchayan | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihsa1=0-4
+SUSPICIOUS | ncert-ihsp1 | Sprash | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihsp1=0-10
+SUSPICIOUS | ncert-iict1 | Information and Communication Technology | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iict1=0-8
+SUSPICIOUS | ncert-ieep2 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ieep2=0-16
+SUSPICIOUS | ncert-ihep2 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihep2=0-16
+SUSPICIOUS | ncert-iumh1 | Reyazi | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iumh1=0-15
+SUSPICIOUS | ncert-isab1 | Abhyaswaan Bhav | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?isab1=0-12
+SUSPICIOUS | ncert-ieep1 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ieep1=0-17
+SUSPICIOUS | ncert-ielm1 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ielm1=0-5
+SUSPICIOUS | ncert-ihep1 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihep1=0-17
+SUSPICIOUS | ncert-ihlm1 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihlm1=0-5
+SUSPICIOUS | ncert-iusc1 | Science | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iusc1=0-15
+SUSPICIOUS | ncert-ihss2 | Arthashastra | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihss2=0-4
+SUSPICIOUS | ncert-ihss3 | Bharat Aur Samkalin Vishwa-I | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihss3=0-5
+SUSPICIOUS | ncert-iess1 | Contemporary India | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iess1=0-6
+SUSPICIOUS | ncert-iess2 | Economics | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iess2=0-4
+SUSPICIOUS | ncert-iess3 | India and the Contemporary World-I | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iess3=0-5
+SUSPICIOUS | ncert-ihss4 | Loktantrik Rajniti | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihss4=0-5
+SUSPICIOUS | ncert-ihss1 | Samkalin Bharat | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?ihss1=0-6
+SUSPICIOUS | ncert-iuss1 | Aasri Hindustan | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iuss1=0-6
+SUSPICIOUS | ncert-iuhi1 | Hindustan Aur Asri Dunia-I | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iuhi1=0-5
+SUSPICIOUS | ncert-iuss4 | Jamhuri Syasat | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iuss4=0-6
+SUSPICIOUS | ncert-iuss2 | Mashiyat | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iuss2=0-4
+SUSPICIOUS | ncert-iudp1 | Door Pass | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iudp1=0-20
+SUSPICIOUS | ncert-iugu1 | Gulzare-e-urdu | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iugu1=0-19
+SUSPICIOUS | ncert-iujp1 | Jaan Pahechan | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iujp1=0-22
+SUSPICIOUS | ncert-iuna1 | Nawa-e-urdu | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iuna1=0-23
+SUSPICIOUS | ncert-iusr1 | Sab Rang | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iusr1=0-10
+SUSPICIOUS | ncert-iuau1 | Urdu ki Adabi Asnaf | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?iuau1=0-40
+SUSPICIOUS | ncert-jeep2 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?jeep2=0-14
+SUSPICIOUS | ncert-jhep2 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?jhep2=0-14
+SUSPICIOUS | ncert-jeep1 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?jeep1=0-18
+SUSPICIOUS | ncert-jelm1 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?jelm1=0-6
+SUSPICIOUS | ncert-jhep1 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?jhep1=0-18
+SUSPICIOUS | ncert-jhlm1 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?jhlm1=0-6
+SUSPICIOUS | ncert-keep4 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?keep4=0-25
+SUSPICIOUS | ncert-kelm3 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?kelm3=0-17
+SUSPICIOUS | ncert-khep4 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?khep4=0-25
+SUSPICIOUS | ncert-kelm2 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?kelm2=0-8
+SUSPICIOUS | ncert-khep5 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?khep5=0-15
+SUSPICIOUS | ncert-khlm2 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?khlm2=0-8
+SUSPICIOUS | ncert-kugy2 | Tabai Gugraphiya ke Mubadiyat | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?kugy2=0-16
+SUSPICIOUS | ncert-kuhc2 | Dastakari | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?kuhc2=0-10
+SUSPICIOUS | ncert-lham1 | Abhivyakti Aur Madhyam | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?lham1=0-18
+SUSPICIOUS | ncert-keep2 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?keep2=0-18
+SUSPICIOUS | ncert-khep2 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?khep2=0-18
+SUSPICIOUS | ncert-keep3 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?keep3=0-17
+SUSPICIOUS | ncert-kelm1 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?kelm1=0-14
+SUSPICIOUS | ncert-khep3 | Exemplar Problem | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?khep3=0-17
+SUSPICIOUS | ncert-leep4 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?leep4=0-19
+SUSPICIOUS | ncert-lelm2 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?lelm2=0-16
+SUSPICIOUS | ncert-leep5 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?leep5=0-18
+SUSPICIOUS | ncert-lelm1 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?lelm1=0-11
+SUSPICIOUS | ncert-lhep4 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?lhep4=0-17
+SUSPICIOUS | ncert-lhlm1 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?lhlm1=0-11
+SUSPICIOUS | ncert-leep2 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?leep2=0-16
+SUSPICIOUS | ncert-lhep2 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?lhep2=0-15
+SUSPICIOUS | ncert-leep6 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?leep6=0-17
+SUSPICIOUS | ncert-lelm3 | Lab Manual | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?lelm3=0-7
+SUSPICIOUS | ncert-lhep6 | Exemplar Problems | TITLE=NO PDF/LINKS=3 | https://ncert.nic.in/textbook.php?lhep6=0-17
+
+================================================================================
+FINAL SUMMARY
+================================================================================
+TOTAL LEGACY: 103
+VERIFIED:     0
+SUSPICIOUS:   102
+DEAD:         1
+ERRORS:       0

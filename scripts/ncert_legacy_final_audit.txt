@@ -1,0 +1,114 @@
+BUDH INDIA ? NCERT LEGACY FINAL URL AUDIT
+================================================================================
+
+OK       | ncert-aeen1 | Marigold | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?aeen1=0-10
+OK       | ncert-auri1 | Riyazi | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?auri1=0-13
+OK       | ncert-buri1 | Riyazi ka Jadu | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?buri1=0-15
+OK       | ncert-deen1 | Marigold | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?deen1=0-9
+OK       | ncert-dhhn1 | Rimjhim | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?dhhn1=0-14
+OK       | ncert-dhmh1 | Ganit Ka Jadu | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?dhmh1=0-14
+OK       | ncert-demh1 | Math-Magic | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?demh1=0-14
+OK       | ncert-duri1 | Riyazi Ka Jadu | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?duri1=0-14
+OK       | ncert-fepw1 | A Pact with the Sun | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fepw1=0-7
+OK       | ncert-fehl1 | Honeysuckle | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fehl1=0-8
+OK       | ncert-fhbr1 | Bal Ram Katha | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fhbr1=0-12
+OK       | ncert-fhdv1 | Durva | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fhdv1=0-28
+OK       | ncert-fhvs1 | Vasant | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fhvs1=0-14
+OK       | ncert-feep1 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?feep1=0-9
+OK       | ncert-fhep1 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fhep1=0-9
+OK       | ncert-feep2 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?feep2=0-16
+OK       | ncert-fesc1 | Science | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fesc1=0-11
+OK       | ncert-fuse1 | science-VI | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fuse1=0-16
+OK       | ncert-fhsc1 | Vigyan | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fhsc1=0-11
+OK       | ncert-fuhm1 | Hamare Mazi | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fuhm1=0-11
+OK       | ncert-fess1 | History-Our Past I | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fess1=0-10
+OK       | ncert-fhss1 | Itihas-Hamare Atit I | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fhss1=0-10
+OK       | ncert-fhss2 | Prithvi: Hamara Avas | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fhss2=0-6
+OK       | ncert-fhss3 | Samajik Evam Rajnitik Jeevan | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fhss3=0-8
+OK       | ncert-fuss1 | Samazi Aur Siyasi Zindagi | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fuss1=0-8
+OK       | ncert-fess3 | Social and Political Life-I | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fess3=0-8
+OK       | ncert-fess2 | The Earth: Our Habitat | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fess2=0-6
+OK       | ncert-fuzm1 | Zameen Hamara Maskan | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fuzm1=0-8
+OK       | ncert-fuaz1 | Apni Zuban-VI | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fuaz1=0-20
+OK       | ncert-fujp1 | Jaan Pahechan | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fujp1=0-32
+OK       | ncert-furi1 | Riyazi-VI | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?furi1=0-14
+OK       | ncert-fuug1 | Urdu Guldasta | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?fuug1=0-10
+OK       | ncert-gemp1 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?gemp1=0-13
+DEAD     | ncert-legacy-9651be50e9ff | Project Books | HTTP=404 | SIZE=6 | TYPE=text/html; charset=UTF-8 | https://ncert.nic.in/book_publishing/envedu/8/8.htm
+OK       | ncert-hhss1 | Hamare Atit III | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?hhss1=0-8
+OK       | ncert-heep2 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?heep2=0-13
+OK       | ncert-hhep2 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?hhep2=0-13
+OK       | ncert-hhss2 | Hamare Atit III | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?hhss2=0-6
+OK       | ncert-iemo1 | Moments Supplementary Reader | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iemo1=0-9
+OK       | ncert-iewe1 | Words and Expressions | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iewe1=0-9
+OK       | ncert-ihkr1 | Kritika | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihkr1=0-3
+OK       | ncert-ihks1 | Kshitij | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihks1=0-13
+OK       | ncert-reva1 | Reva | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?reva1=0-10
+OK       | ncert-ihsa1 | Sanchayan | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihsa1=0-4
+OK       | ncert-ihsp1 | Sprash | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihsp1=0-10
+OK       | ncert-iict1 | Information and Communication Technology | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iict1=0-8
+OK       | ncert-ieep2 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ieep2=0-16
+OK       | ncert-ihep2 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihep2=0-16
+OK       | ncert-iumh1 | Reyazi | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iumh1=0-15
+OK       | ncert-isab1 | Abhyaswaan Bhav | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?isab1=0-12
+OK       | ncert-ieep1 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ieep1=0-17
+OK       | ncert-ielm1 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ielm1=0-5
+OK       | ncert-ihep1 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihep1=0-17
+OK       | ncert-ihlm1 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihlm1=0-5
+OK       | ncert-iusc1 | Science | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iusc1=0-15
+OK       | ncert-ihss2 | Arthashastra | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihss2=0-4
+OK       | ncert-ihss3 | Bharat Aur Samkalin Vishwa-I | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihss3=0-5
+OK       | ncert-iess1 | Contemporary India | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iess1=0-6
+OK       | ncert-iess2 | Economics | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iess2=0-4
+OK       | ncert-iess3 | India and the Contemporary World-I | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iess3=0-5
+OK       | ncert-ihss4 | Loktantrik Rajniti | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihss4=0-5
+OK       | ncert-ihss1 | Samkalin Bharat | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?ihss1=0-6
+OK       | ncert-iuss1 | Aasri Hindustan | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iuss1=0-6
+OK       | ncert-iuhi1 | Hindustan Aur Asri Dunia-I | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iuhi1=0-5
+OK       | ncert-iuss4 | Jamhuri Syasat | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iuss4=0-6
+OK       | ncert-iuss2 | Mashiyat | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iuss2=0-4
+OK       | ncert-iudp1 | Door Pass | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iudp1=0-20
+OK       | ncert-iugu1 | Gulzare-e-urdu | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iugu1=0-19
+OK       | ncert-iujp1 | Jaan Pahechan | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iujp1=0-22
+OK       | ncert-iuna1 | Nawa-e-urdu | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iuna1=0-23
+OK       | ncert-iusr1 | Sab Rang | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iusr1=0-10
+OK       | ncert-iuau1 | Urdu ki Adabi Asnaf | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?iuau1=0-40
+OK       | ncert-jeep2 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?jeep2=0-14
+OK       | ncert-jhep2 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?jhep2=0-14
+OK       | ncert-jeep1 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?jeep1=0-18
+OK       | ncert-jelm1 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?jelm1=0-6
+OK       | ncert-jhep1 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?jhep1=0-18
+OK       | ncert-jhlm1 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?jhlm1=0-6
+OK       | ncert-keep4 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?keep4=0-25
+OK       | ncert-kelm3 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?kelm3=0-17
+OK       | ncert-khep4 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?khep4=0-25
+OK       | ncert-kelm2 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?kelm2=0-8
+OK       | ncert-khep5 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?khep5=0-15
+OK       | ncert-khlm2 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?khlm2=0-8
+OK       | ncert-kugy2 | Tabai Gugraphiya ke Mubadiyat | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?kugy2=0-16
+OK       | ncert-kuhc2 | Dastakari | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?kuhc2=0-10
+OK       | ncert-lham1 | Abhivyakti Aur Madhyam | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?lham1=0-18
+OK       | ncert-keep2 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?keep2=0-18
+OK       | ncert-khep2 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?khep2=0-18
+OK       | ncert-keep3 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?keep3=0-17
+OK       | ncert-kelm1 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?kelm1=0-14
+OK       | ncert-khep3 | Exemplar Problem | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?khep3=0-17
+OK       | ncert-leep4 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?leep4=0-19
+OK       | ncert-lelm2 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?lelm2=0-16
+OK       | ncert-leep5 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?leep5=0-18
+OK       | ncert-lelm1 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?lelm1=0-11
+OK       | ncert-lhep4 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?lhep4=0-17
+OK       | ncert-lhlm1 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?lhlm1=0-11
+OK       | ncert-leep2 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?leep2=0-16
+OK       | ncert-lhep2 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?lhep2=0-15
+OK       | ncert-leep6 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?leep6=0-17
+OK       | ncert-lelm3 | Lab Manual | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?lelm3=0-7
+OK       | ncert-lhep6 | Exemplar Problems | HTTP=200 | SIZE=538945 | TYPE=text/html; charset=utf-8 | https://ncert.nic.in/textbook.php?lhep6=0-17
+
+================================================================================
+SUMMARY
+================================================================================
+OK: 102
+REDIRECT: 0
+DEAD: 1
+ERROR: 0
