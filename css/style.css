@@ -588,6 +588,44 @@ footer{
 }
 
 
+.result-card .edition-selector{
+
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:10px;
+    margin-top:12px;
+    margin-bottom:8px;
+
+}
+
+
+.result-card .edition-selector label{
+
+    color:#475569;
+    font-size:.82rem;
+    font-weight:700;
+    letter-spacing:.02em;
+
+}
+
+
+.language-selector{
+
+    flex:1 1 220px;
+    min-width:0;
+    border:1px solid #CBD5E1;
+    border-radius:12px;
+    background:#FFFFFF;
+    color:#0F172A;
+    padding:12px 14px;
+    font-size:.95rem;
+    font-family:inherit;
+    outline:none;
+
+}
+
+
 .open-resource{
 
     background:#2563EB;
@@ -612,6 +650,19 @@ footer{
 .open-resource:hover{
 
     background:#1D4ED8;
+
+}
+
+@media (max-width: 600px) {
+
+    .result-card .edition-selector{
+        flex-direction:column;
+        align-items:stretch;
+    }
+
+    .language-selector{
+        width:100%;
+    }
 
 }
 

@@ -657,10 +657,397 @@ async function searchExternalFallback(query) {
 
 
 // ------------------------------------------------------------
+// GROUP LANGUAGE EDITIONS CONSERVATIVELY
+// ------------------------------------------------------------
+// Only group textbook records when they clearly share the same
+// underlying textbook across language editions.
+
+function getEditionGroupKey(item) {
+
+    if (!item || typeof item !== "object") {
+        return null;
+    }
+
+    const title = normalizeText(item.title || "");
+    const subject = normalizeText(item.subject || "");
+    const className =
+        item.class !== undefined && item.class !== null
+            ? String(item.class).trim()
+            : "";
+
+    const provider = normalizeText(
+        item.provider ||
+        item.board ||
+        item.source ||
+        ""
+    );
+
+    if (!title || !subject || !className || !provider) {
+        return null;
+    }
+
+    return [
+        title,
+        className,
+        subject,
+        provider
+    ].join("::");
+}
+
+
+function buildEditionGroups(items) {
+
+    if (!Array.isArray(items) || items.length === 0) {
+        return [];
+    }
+
+    const groups = new Map();
+
+    for (const item of items) {
+
+        if (!item || typeof item !== "object") {
+            continue;
+        }
+
+        const groupKey =
+            getEditionGroupKey(item);
+
+        if (!groupKey) {
+            if (!groups.has("__standalone__")) {
+                groups.set("__standalone__", []);
+            }
+
+            groups.get("__standalone__").push(item);
+            continue;
+        }
+
+        if (!groups.has(groupKey)) {
+            groups.set(groupKey, []);
+        }
+
+        groups.get(groupKey).push(item);
+    }
+
+    const output = [];
+
+    for (const groupItems of groups.values()) {
+
+        if (!Array.isArray(groupItems) || groupItems.length === 0) {
+            continue;
+        }
+
+        const filtered = groupItems.filter(item => {
+            const language =
+                String(item && item.language ? item.language : "").trim();
+
+            return !!language;
+        });
+
+        if (filtered.length < 2) {
+            output.push(...groupItems);
+            continue;
+        }
+
+        const uniqueLanguages =
+            Array.from(
+                new Set(
+                    filtered.map(item =>
+                        String(item.language || "").trim()
+                    )
+                    .filter(Boolean)
+                )
+            );
+
+        if (uniqueLanguages.length < 2) {
+            output.push(...groupItems);
+            continue;
+        }
+
+        const reference = filtered[0];
+        const languageRecords = uniqueLanguages.map(language => {
+            const match = filtered.find(item =>
+                String(item.language || "").trim() === language
+            );
+
+            return {
+                language,
+                item: match || reference,
+                url: (match && match.url) || reference.url || ""
+            };
+        }).filter(entry => entry.url);
+
+        if (languageRecords.length < 2) {
+            output.push(...groupItems);
+            continue;
+        }
+
+        const groupedResult = {
+            _editionGroup: true,
+            title: reference.title || "Textbook",
+            author: reference.author || "",
+            year: reference.year || "",
+            provider: reference.provider || reference.board || reference.source || "BUDH",
+            thumbnail: reference.thumbnail || reference.cover || "",
+            description: reference.snippet || reference.description || "",
+            source: reference.source || "",
+            editionRecords: filtered,
+            languageOptions: languageRecords,
+            url: reference.url || ""
+        };
+
+        output.push(groupedResult);
+    }
+
+    return output;
+}
+
+
+function createEditionSelectorCard(group) {
+
+    const card =
+        document.createElement("div");
+
+    card.className = "result-card";
+
+    const header =
+        document.createElement("div");
+
+    header.className =
+        "result-card-header";
+
+    const thumbnailUrl =
+        group.thumbnail || null;
+
+    if (thumbnailUrl) {
+
+        const cover =
+            document.createElement("img");
+
+        cover.src = thumbnailUrl;
+        cover.alt =
+            group.title
+                ? `${group.title} preview`
+                : "Resource preview";
+        cover.className =
+            "result-card-cover";
+
+        cover.addEventListener(
+            "error",
+            () => {
+                cover.remove();
+            }
+        );
+
+        header.appendChild(cover);
+    }
+
+    const content =
+        document.createElement("div");
+
+    content.className =
+        "result-card-content";
+
+    const title =
+        document.createElement("h3");
+
+    title.textContent =
+        group.title || "Untitled";
+
+    content.appendChild(title);
+
+    const meta =
+        document.createElement("p");
+
+    meta.className =
+        "result-card-author-year";
+
+    const author =
+        group.author || "";
+    const year =
+        group.year || "";
+
+    if (author || year) {
+        let metaText =
+            author || "Unknown Author";
+
+        if (year) {
+            metaText += ` • ${year}`;
+        }
+
+        meta.textContent = metaText;
+    } else {
+        meta.textContent =
+            group.provider ||
+            group.source ||
+            "BUDH Resource";
+    }
+
+    content.appendChild(meta);
+
+    const description =
+        group.description || "";
+
+    if (description) {
+        const desc =
+            document.createElement("p");
+
+        desc.textContent =
+            description;
+
+        content.appendChild(desc);
+    }
+
+    const source =
+        document.createElement("span");
+
+    source.className =
+        "result-card-source";
+
+    source.textContent =
+        group.provider || "BUDH";
+
+    content.appendChild(source);
+
+    const selectorWrap =
+        document.createElement("div");
+
+    selectorWrap.className =
+        "edition-selector";
+
+    const selectorLabel =
+        document.createElement("label");
+
+    selectorLabel.textContent =
+        "Language";
+
+    const selector =
+        document.createElement("select");
+
+    selector.className =
+        "language-selector";
+
+    const seenLanguages = new Set();
+
+    let selectedUrl = "";
+    let selectedLanguage = "";
+
+    for (const option of group.languageOptions) {
+
+        const language =
+            option && option.language
+                ? String(option.language).trim()
+                : "";
+
+        if (!language || seenLanguages.has(language)) {
+            continue;
+        }
+
+        seenLanguages.add(language);
+
+        const optionEl =
+            document.createElement("option");
+
+        optionEl.value = language;
+        optionEl.textContent = language;
+
+        if (!selectedLanguage) {
+            selectedLanguage = language;
+            selectedUrl = option.url || "";
+        }
+
+        selector.appendChild(optionEl);
+    }
+
+    if (selector.options.length > 0) {
+        selector.value = selectedLanguage;
+    }
+
+    selector.addEventListener(
+        "change",
+        () => {
+
+            const chosenLanguage =
+                selector.value;
+
+            const chosenOption =
+                group.languageOptions.find(option =>
+                    String(option.language || "").trim() === chosenLanguage
+                );
+
+            const chosenUrl =
+                chosenOption && chosenOption.url
+                    ? chosenOption.url
+                    : selectedUrl;
+
+            if (!chosenUrl) {
+                return;
+            }
+
+            window.open(
+                chosenUrl,
+                "_blank",
+                "noopener,noreferrer"
+            );
+        }
+    );
+
+    selectorWrap.appendChild(selectorLabel);
+    selectorWrap.appendChild(selector);
+    content.appendChild(selectorWrap);
+
+    header.appendChild(content);
+    card.appendChild(header);
+
+    const btn =
+        document.createElement("button");
+
+    btn.type = "button";
+    btn.className = "open-resource";
+    btn.textContent = "Open Selected Edition";
+
+    btn.addEventListener(
+        "click",
+        () => {
+
+            const chosenLanguage =
+                selector.value;
+
+            const chosenOption =
+                group.languageOptions.find(option =>
+                    String(option.language || "").trim() === chosenLanguage
+                );
+
+            const chosenUrl =
+                chosenOption && chosenOption.url
+                    ? chosenOption.url
+                    : selectedUrl;
+
+            if (!chosenUrl) {
+                return;
+            }
+
+            window.open(
+                chosenUrl,
+                "_blank",
+                "noopener,noreferrer"
+            );
+        }
+    );
+
+    card.appendChild(btn);
+    return card;
+}
+
+
+// ------------------------------------------------------------
 // CREATE RESULT CARD
 // ------------------------------------------------------------
 
 function createResultCard(item) {
+
+    if (item && item._editionGroup) {
+        return createEditionSelectorCard(item);
+    }
 
     const card =
         document.createElement("div");
@@ -907,9 +1294,11 @@ function renderResults(items) {
 
     const fragment =
         document.createDocumentFragment();
+    const displayItems =
+        buildEditionGroups(items);
 
 
-    for (const item of items) {
+    for (const item of displayItems) {
 
         fragment.appendChild(
             createResultCard(item)
